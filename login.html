@@ -29,6 +29,8 @@
           top: 0;
           bottom: 0;
           z-index: -1;
+		opacity: 0.5;
+
         }
       
         /* page content */
@@ -56,7 +58,6 @@
       </style>
 
     <main class="text-white">
-        <img class="image" src="/img/Tune Fry Logo Transparent (4).png" alt="">
 
         <div class="content row mx-auto">
             <div class="img-container p-0 col-md-6 bg-warning">
@@ -65,12 +66,13 @@
             <div class="form-container col-md-6 ">
 
                 <div onclick="show_login()" class="login-button button-selected">Login</div>
+                <img class="image" src="/img/Tune Fry Logo Transparent (4).png" alt="">
+                
                 <div onclick="show_signup()" class="signup-button">Signup</div>
 
                 <div class="">
 
                     <form class="js-login-form pt-4 p-4">
-
                         <h2 class="fx-animate-1">Login</h2>
                         <h5 class="fx-animate-3">Please enter your details</h5>
                         <div class="input-group mb-4 fx-animate-1">
