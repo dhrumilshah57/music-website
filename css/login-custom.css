@@ -1,38 +1,40 @@
-  	
-  	@keyframes rotate_in{
+  	@keyframes rotate_in {
 
-  		0%{
+  		0% {
   			opacity: 0;
   			transform: rotate(30deg) scale(1.5);
   		}
-  		100%{
+
+  		100% {
   			opacity: 1;
   			transform: rotate(0deg) scale(1);
   		}
   	}
 
-  	@keyframes move_in{
+  	@keyframes move_in {
 
-  		0%{
+  		0% {
   			opacity: 0;
   			transform: translateY(100px);
   		}
-  		100%{
+
+  		100% {
   			opacity: 1;
   			transform: translateY(0px);
   		}
   	}
 
-  	body{
-  		background-color: #0b1828;
+  	body {
+  		background-color: #fff;
   		min-width: 350px;
+  		margin-top: 20px;
   	}
 
-  	body a{
+  	body a {
   		text-decoration: none;
   	}
 
-  	*{
+  	* {
   		box-sizing: border-box;
   	}
 
@@ -43,24 +45,25 @@
 		margin-top: 25px;
 	}
 
-  	.img-container img{
+  	.img-container img {
   		width: 100%;
-  		height:100%;
-  		object-fit: cover; 
+  		height: 100%;
+  		object-fit: cover;
   		animation: rotate_in 1s ease;
   	}
 
-  	.img-container{
+  	.img-container {
 
   		height: 100%;
   		position: relative;
   		overflow: hidden;
+  		opacity: 80%;
   	}
 
-  	.img-container::after{
+  	.img-container::after {
 
   		content: '';
-  		width:60px;
+  		width: 60px;
   		height: 100%;
   		position: absolute;
   		transform: skew(5deg);
@@ -72,7 +75,7 @@
 
   	}
 
-  	.form-container{
+  	.form-container {
   		position: relative;
   		height: 100%;
   		/* background-color: #203349; */
@@ -82,11 +85,11 @@
 		border-top-right-radius: 10%;
   	}
 
-  	.login-button{
+  	.login-button {
 
   		position: absolute;
-  		left:-100px;
-  		top:30px;
+  		left: -100px;
+  		top: 30px;
   		background-color: white;
   		padding: 10px 20px;
   		border-radius: 20px;
@@ -94,11 +97,11 @@
   		cursor: pointer;
   	}
 
-  	.signup-button{
+  	.signup-button {
 
   		position: absolute;
-  		left:-100px;
-  		top:80px;
+  		left: -100px;
+  		top: 80px;
   		background-color: white;
   		padding: 10px 20px;
   		border-radius: 20px;
@@ -106,12 +109,12 @@
   		cursor: pointer;
   	}
 
-  	.button-selected{
+  	.button-selected {
   		background-color: #203349;
   		color: white;
   	}
 
-  	.content{
+  	.content {
   		height: 600px;
   		width: 100%;
   		max-width: 900px;
@@ -119,61 +122,61 @@
 		
   	}
 
-  	.fx-animate-1{
+  	.fx-animate-1 {
   		animation: move_in 0.4s ease;
   	}
 
-  	.fx-animate-2{
+  	.fx-animate-2 {
   		animation: move_in 0.8s ease;
   	}
 
-  	.fx-animate-3{
+  	.fx-animate-3 {
   		animation: move_in 1.2s ease;
   	}
 
-  	.fx-animate-4{
+  	.fx-animate-4 {
   		animation: move_in 1.6s ease;
   	}
 
-  	.fx-animate-5{
+  	.fx-animate-5 {
   		animation: move_in 2s ease;
   	}
 
-  	.fx-animate-6{
+  	.fx-animate-6 {
   		animation: move_in 2.4s ease;
   	}
 
-  	form{
+  	form {
   		z-index: 10;
   		position: relative;
   	}
 
-  	.hide{
+  	.hide {
   		display: none;
   	}
 
-  	@media (max-width: 767px){
+  	@media (max-width: 767px) {
 
-  		.login-button{
+  		.login-button {
 
-	  		left:100px;
-	  		top:-30px;
-	  
-	  	}
+  			left: 100px;
+  			top: -30px;
 
-	  	.signup-button{
+  		}
 
-	  		left:190px;
-	  		top:-30px;
+  		.signup-button {
 
-	  	}
+  			left: 190px;
+  			top: -30px;
 
-	  	.img-container::after{
+  		}
 
-	  		display: none;
-	  	}
+  		.img-container::after {
 
-	  	.content{
-	  		height: 300px;
-	  	}
+  			display: none;
+  		}
+
+  		.content {
+  			height: 300px;
+  		}
   	}
