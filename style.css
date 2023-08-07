@@ -2453,3 +2453,125 @@ img {
   text-align: center;
   justify-content: space-evenly;
 }
+/* ----------------
+Intro section
+ -------------------*/
+
+ .intro-section p {
+	margin-bottom: 35px;
+	padding-top: 10px;
+}
+/*---------unlimited acess------*/
+.icon-img{
+  display: flex;
+  column-gap: 40px;
+    justify-content: space-evenly;
+    margin: 50px 0;
+   margin-top: 7rem;
+    align-items: center;
+    row-gap: 40px;
+    flex-wrap: wrap;
+}
+.icon-img .image{
+    
+  width: 130px;
+  height: 50px;
+  object-fit: contain;
+  margin-top: -3rem;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  justify-content: center;
+  display: flex;
+  border-radius: 3rem;
+}
+.featured-section{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ----------------
+Intro section
+ -------------------*/
+
+ .intro-section p {
+	margin-bottom: 35px;
+	padding-top: 10px;
+}
+ /* ----------PRICING PLANS-------------  */
+ 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4%;
+  padding: 12% 0;
+}
+
+.card {
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 25px;
+  height: 55vh;
+}
+
+.card_title {
+  font-weight: normal;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.pricing {
+  font-weight: normal;
+  font-size: 96px;
+}
+
+.pricing .small {
+  font-size: 16px;
+}
+
+hr {
+  margin-top: 70px;
+}
+
+
+
+.features li {
+  padding-bottom: 10px;
+}
+
+a.cta_btn {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  background: rgba(21, 23, 24, 0.7);
+  border-radius: 29px;
+  padding: 20px 0;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition:  .3s ease;
+  margin-top: 39px;
+}
+
+a.cta_btn:hover {
+  background: #000;
+}
+.link {
+  position: fixed;
+  background-color: #D12322;
+  padding: 23px 40px;
+  right: -99px;
+  border-radius: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  transform: rotate(-90deg);
+  font-size: 18px;
+  font-weight: 500;
+  color: #FFF;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .1s ease-in-out;
+}
