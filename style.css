@@ -477,11 +477,10 @@ img {
 /* :: 4.0 Header Area CSS */
 .header-area {
   position: absolute;
-  z-index: 1000;
+  z-index: 1001;
   width: 100%;
   top: 20px;
   left: 0;
-  z-index: 1000;
 }
 
 .header-area .oneMusic-main-menu {
@@ -493,7 +492,9 @@ img {
 
 @media only screen and (max-width: 767px) {
   .header-area .oneMusic-main-menu {
-    height: 70px;
+    height:100vh;
+    z-index: 10001;
+
   }
 }
 
