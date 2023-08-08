@@ -744,7 +744,7 @@ img {
 .hero-slides {
   position: relative;
   z-index: 1;
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 90px), 50% 100%, 0 calc(100% - 90px));
+  /* clip-path: polygon(0 0, 100% 0, 100% calc(100% - 90px), 50% 100%, 0 calc(100% - 90px)); */
 }
 
 .single-hero-slide {
@@ -2554,7 +2554,7 @@ a.cta_btn {
   text-decoration: none;
   letter-spacing: 2px;
   transition:  .3s ease;
-  margin-top: 39px;
+  margin-top:4.2rem;
 }
 
 a.cta_btn:hover {
