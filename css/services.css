@@ -3,8 +3,8 @@
 
 .hello{
     
-    --color: rgba(30, 30, 30);
-    --bgColor: rgba(245, 245, 245, 0.322);
+    --color: rgb(255, 255, 255);
+    --bgColor: rgba(99, 97, 97, 0.273);
         min-height: 100vh;
         display: grid;
         align-content: center;
