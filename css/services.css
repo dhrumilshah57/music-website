@@ -12,8 +12,7 @@
         padding: 2rem;
         font-family: "Exo 2", sans-serif;
         color: var(--color);
-        background: var(--bgColor);
-      
+        background: var(--bgColor);     
 }
 
 h1 { text-align: center }
