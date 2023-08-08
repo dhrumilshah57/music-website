@@ -564,6 +564,7 @@ img {
 
 .breakpoint-on .classy-navbar .classy-menu.menu-on {
   left: -1px;
+  top: -1px;
 }
 
 .breakpoint-on .classynav ul li {
