@@ -492,7 +492,7 @@ img {
 
 @media only screen and (max-width: 767px) {
   .header-area .oneMusic-main-menu {
-    height:100vh;
+    height: 100vh;
     z-index: 10001;
 
   }
@@ -720,7 +720,7 @@ img {
 @media only screen and (max-width: 767px) {
   .breakpoint-on .classy-navbar .classy-menu {
     background-color: #000000;
-  }
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2454,32 +2454,36 @@ img {
   text-align: center;
   justify-content: space-evenly;
 }
+
 /* ----------------
 Intro section
  -------------------*/
 
- .intro-section p {
-	margin-bottom: 35px;
-	padding-top: 10px;
+.intro-section p {
+  margin-bottom: 35px;
+  padding-top: 10px;
 }
+
 /*---------unlimited acess------*/
-.icon-img{
+.icon-img {
   display: flex;
   column-gap: 40px;
-    justify-content: space-evenly;
-    margin: 50px 0;
-   margin-top: 7rem;
-    align-items: center;
-    row-gap: 40px;
-    flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 50px 0;
+  margin-top: 7rem;
+  align-items: center;
+  row-gap: 40px;
+  flex-wrap: wrap;
 }
-.icon-img .image{
-    
+
+.icon-img .image {
+
   width: 130px;
   height: 50px;
   object-fit: contain;
   margin-top: -3rem;
 }
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -2487,7 +2491,8 @@ Intro section
   display: flex;
   border-radius: 3rem;
 }
-.featured-section{
+
+.featured-section {
   display: flex;
   justify-content: space-around;
 }
@@ -2496,12 +2501,13 @@ Intro section
 Intro section
  -------------------*/
 
- .intro-section p {
-	margin-bottom: 35px;
-	padding-top: 10px;
+.intro-section p {
+  margin-bottom: 35px;
+  padding-top: 10px;
 }
- /* ----------PRICING PLANS-------------  */
- 
+
+/* ----------PRICING PLANS-------------  */
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -2554,12 +2560,13 @@ a.cta_btn {
   text-decoration: none;
   letter-spacing: 2px;
   transition:  .3s ease;
-  margin-top:4.2rem;
+  margin-top: 39px;
 }
 
 a.cta_btn:hover {
   background: #000;
 }
+
 .link {
   position: fixed;
   background-color: #D12322;
