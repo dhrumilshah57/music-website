@@ -720,7 +720,7 @@ img {
 @media only screen and (max-width: 767px) {
   .breakpoint-on .classy-navbar .classy-menu {
     background-color: #000000;
-    }
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1999,6 +1999,7 @@ img {
 }
 
 .single-widget-area .widget-title h5 {
+  color: #5f5f5f;
   margin-bottom: 0;
   line-height: 1;
 }
@@ -2559,7 +2560,7 @@ a.cta_btn {
   color: white;
   text-decoration: none;
   letter-spacing: 2px;
-  transition:  .3s ease;
+  transition: .3s ease;
   margin-top: 39px;
 }
 
