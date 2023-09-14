@@ -67,12 +67,17 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="albums-store.html">Albums</a></li>
+                                    <li><div class="toggle-btn">
+                                        <input type="checkbox" id="checkbox">
+                                        <label for="checkbox" class="toggle-label">
+                                            <span class="toggle-ball"></span>
+                                        </label>
+                                    </div></li>
+                                    <li><a href="index.html">Home</a></li>
                                     <li><a href="blog.html">Blogs</a></li>
                                     <li><a href="artist-advice.html">Recommendation</a></li>
                                     <li><a href="artist-services.html">Artist Services</a></li>
                                     <li><a href="pricing.html">Pricing</a></li>
-                                    <li><a href="contact.html">Contact us</a></li>
                                 </ul>
 
                                 <!-- Login/Register & Cart Button -->
@@ -202,12 +207,12 @@
     </section>
 
 
-    <div class="artist" style="background-color: #141414; clip-path: polygon(0 0,50% 50px,100% 0,100% 100%,0 100%);
+    <div class="artist" style=" clip-path: polygon(0 0,50% 50px,100% 0,100% 100%,0 100%);
 margin-top: -40px;">
-        <h3 class="head" style="font-size: 2.1rem; padding-top: 8rem;">Our Artist And Our Concept</h3>
+        <h3 class="head" style="font-size: 2.1rem; padding-top: 8rem; text-align: center;">Our Artist And Our Concept</h3>
     </div>
     <section class="latest-albums-area section-padding-100"
-        style="clip-path: polygon(0 0,100% 0,100% calc(100% - 50px),calc(50% + 50px) calc(100% - 50px),50% 100%,calc(50% - 50px) calc(100% - 50px),0 calc(100% - 50px));background-color: #141414;margin-top: -1rem;padding-top: 8rem;">
+        style="clip-path: polygon(0 0,100% 0,100% calc(100% - 50px),calc(50% + 50px) calc(100% - 50px),50% 100%,calc(50% - 50px) calc(100% - 50px),0 calc(100% - 50px));margin-top: -1rem;padding-top: 8rem;">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -332,11 +337,11 @@ margin-top: -40px;">
     <!--PRICING PLANS-->
 
     <section class="oneMusic-buy-now-area has-fluid bg-gray section-padding-100"
-        style="background-color: #1c1e1f; color: aliceblue;">
+        style=" color: aliceblue;">
         <div>
-            <h1>Pricing Plans</h1>
+            <h1 style="text-align: center;">Pricing Plans</h1>
         </div>
-        <div class="p-table" style="background-color: #1c1e1f; color: aliceblue;">
+        <div class="p-table" style=" color: aliceblue;">
             <div class="pd6-grid pd6-gap-sm">
                 <div class="p-table__item pd6-col-4@md">
                     <div class="pd6-margin-bottom-2xs">
@@ -1054,20 +1059,23 @@ margin-top: -40px;">
             <div class="row d-flex flex-wrap align-items-center">
                 <div class="col-12 col-md-6">
                     <a href="#"><img src="img/Tune Fry Logo Transparent (4).png" alt=""></a>
-                    <p class="copywrite-text">
-                        Copyright &copy;
-                        <script>document.write(new Date().getFullYear());</script> All rights reserved
-                    </p>
+                    <p class="copywrite-text"><a
+                            href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                            template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                                href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                 </div>
 
                 <div class="col-12 col-md-6">
                     <div class="footer-nav">
                         <ul>
-                            <li><a href="albums-store.html">Albums</a></li>
-                            <li><a href="blog.html">Blogs</a></li>
-                            <li><a href="artist-advice.html">Recommendation</a></li>
-                            <li><a href="artist-advice.html">Artist Services</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Albums</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -1087,7 +1095,7 @@ margin-top: -40px;">
     <script src="js/plugins/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
+    <script src="js/dark-light-mode.js"></script>
 </body>
 
 </html>
-
