@@ -23,7 +23,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./css/services.css">
     <link rel="stylesheet" href="./css/pricingindex.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/growwithus.css">
+
 
 </head>
 
@@ -67,14 +69,9 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><div class="toggle-btn">
-                                        <input type="checkbox" id="checkbox">
-                                        <label for="checkbox" class="toggle-label">
-                                            <span class="toggle-ball"></span>
-                                        </label>
-                                    </div></li>
+                                  
                                     <li><a href="index.html">Home</a></li>
-                                    <li><a href="blog.html">Blogs</a></li>
+                                    <li><a href="blog.html">TuneFry Daily</a></li>
                                     <li><a href="artist-advice.html">Recommendation</a></li>
                                     <li><a href="artist-services.html">Artist Services</a></li>
                                     <li><a href="pricing.html">Pricing</a></li>
@@ -89,7 +86,12 @@
 
                                     <!-- Cart Button -->
                                     <div class="cart-btn">
-                                        <p><span class="icon-shopping-cart"></span> <span class="quantity">1</span></p>
+                                        <li><div class="toggle-btn">
+                                            <input type="checkbox" id="checkbox">
+                                            <label for="checkbox" class="toggle-label">
+                                                <span class="toggle-ball"></span>
+                                            </label>
+                                        </div></li>
                                     </div>
                                 </div>
                             </div>
@@ -151,7 +153,7 @@
     <!-- Intro section -->
     <div class="featured"
         style="clip-path: polygon(0 0,100% 0,100% calc(100% - 50px),calc(50% + 50.00px) calc(100% - 50px),50% 100%,calc(50% - 50.00px) calc(100% - 50px),0 calc(100% - 50px));height: 25rem;background-color:#141414;margin-top: -2rem;">
-        <h3 class="head" style="font-size: 2.1rem; padding-top: 2rem; text-align: center; margin-top: 2rem;">We Are
+        <h3 class="head" style="font-size: 2.1rem; padding-top: 2rem; text-align: center; margin-top: 2rem; color: white;">We Are
             Featured On. </h3>
 
 
@@ -348,7 +350,7 @@ margin-top: -40px;">
                         <h4 class="p-table__title">Free</h4>
                     </div>
 
-                    <div class="p-table__price pd6-margin-bottom-sm"><span>$0</span> <i>/ month</i></div>
+                    <div class="p-table__price pd6-margin-bottom-sm"><span>$0</span> <i class="no-use">/ month</i></div>
 
                     <ul class="p-table__features pd6-margin-bottom-md">
                         <li>1x user</li>
@@ -630,6 +632,62 @@ margin-top: -40px;">
         </div>
     </section>
     <!-- different service design -->
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                    <div class="sec-heading text-center">
+                        <h6 style="font-size: 2rem;">Video Testimonials</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="team-slider owl-carousel">
+                            <div class="single-box text-center">
+
+                                <div class="single-event-area mb-30">
+
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM" allowfullscreen></iframe>
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="single-box text-center">
+                                <div class="single-event-area mb-30">
+
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM" allowfullscreen></iframe>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="single-box text-center">
+                                <div class="single-event-area mb-30">
+
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM" allowfullscreen></iframe>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="single-box text-center">
+                                <div class="single-event-area mb-30">
+
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM" allowfullscreen></iframe>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="miscellaneous-area section-padding-100-0">
         <div class="container">
             <div class="row">
@@ -721,6 +779,7 @@ margin-top: -40px;">
         </div>
     </section>
     <!-- ##### Featured Artist Area End ##### -->
+    
 
     <!-- ##### Miscellaneous Area Start ##### -->
     <section class="miscellaneous-area section-padding-100-0">
@@ -1096,6 +1155,37 @@ margin-top: -40px;">
     <!-- Active js -->
     <script src="js/active.js"></script>
     <script src="js/dark-light-mode.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js">
+	</script>  -->
+    <script>
+        $('.team-slider').owlCarousel({
+            loop: true,
+            nav: false,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            smartSpeed: 450,
+            margin: 20,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                991: {
+                    items: 3
+                },
+                1200: {
+                    items: 3
+                },
+                1920: {
+                    items: 3
+                }
+            }
+        });
+    </script>
 </body>
 
 </html>
