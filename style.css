@@ -519,7 +519,7 @@ img {
 
   text-transform: capitalize;
   color: var(--pure-white);
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .header-area .oneMusic-main-menu .classy-navbar .classynav ul li a:hover,
@@ -637,7 +637,7 @@ img {
   margin-bottom: 0;
   color: var(--pure-white);
   font-weight: 700;
-  font-size: 16px;
+  font-size: 12px;
   cursor: pointer;
   line-height: 1;
 }
@@ -2710,7 +2710,7 @@ a.cta_btn:hover {
 ----------------------------
 -------Toggle Class*/
 .toggles-btn{
-  height: 20rem;
+  height: 1rem;
   
   align-items: center;
   
@@ -2782,4 +2782,7 @@ span{
 }
 .single-box{
   height: fit-content;
+}
+h1 .h1{
+  color: var(--pure-white);
 }
