@@ -524,7 +524,7 @@ img {
 
 .header-area .oneMusic-main-menu .classy-navbar .classynav ul li a:hover,
 .header-area .oneMusic-main-menu .classy-navbar .classynav ul li a:focus {
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--pure-black)
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2711,8 +2711,9 @@ a.cta_btn:hover {
 -------Toggle Class*/
 .toggles-btn{
   height: 1rem;
-  
+ justify-content: center;
   align-items: center;
+
   
 }
 #checkbox{
@@ -2785,4 +2786,13 @@ span{
 }
 h1 .h1{
   color: var(--pure-white);
+}
+
+#viewCartButton{
+  background-color: var(--pure-white);
+  color: var(--pure-black)
+}
+#cartCount{
+color: var(--pure-black);
+font-size: 1rem;
 }
