@@ -123,3 +123,43 @@
   font-weight: 600;
   margin-bottom: 20px;
 }
+
+
+.rowService2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 30px;
+  padding-bottom: 15vh;
+}
+
+.rowService2 .service {
+  padding: 25px 15px;
+  background: transparent;
+  font-size: 15px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.rowService2 .service:hover {
+  color: #fff;
+  background-color: var(--main-color);
+  transform: scale(1.05);
+}
+
+.rowService2 .service i {
+  color: var(--main-color);
+  margin-bottom: 20px;
+  font-size: 40px;
+  transition: 0.5s;
+}
+
+.rowService2 .service:hover i {
+  color: #fff;
+}
+
+.rowService2 .service h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
