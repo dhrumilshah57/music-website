@@ -55,7 +55,7 @@ a:focus {
   transition-duration: 500ms;
   text-decoration: none;
   outline: 0 solid transparent;
-  color: var(--pure-black);
+  color: var(--pure-white);
   font-weight: 700;
   font-size: 16px;
   font-family: "Archivo Narrow", sans-serif;
@@ -2795,4 +2795,9 @@ h1 .h1{
 #cartCount{
 color: var(--pure-black);
 font-size: 1rem;
+}
+.cart-btn{
+position: relative;
+top:-.5rem;
+left: 1.3rem;
 }
