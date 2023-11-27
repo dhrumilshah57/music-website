@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Shop Homepage - Start Bootstrap Template</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <!-- Bootstrap icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Core theme CSS (includes Bootstrap) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+      /* Your custom CSS styles for this section can be added here */
+      .artist-container {
+      margin-top: 9rem;
+    }
+   
+    .card img {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+    .card-title {
+      color: #007bff;
+    }
+    .social-links a {
+      color: #007bff;
+      margin-right: 10px;
+    }
+    .social-links a:hover {
+      text-decoration: none;
+    }
+    
+    </style>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+  <!-- ##### Header Area Start ##### -->
+  <header class="header-area">
+    <!-- Navbar Area -->
+    <div class="oneMusic-main-menu">
+        <div class="classy-nav-container breakpoint-off">
+            <div class="container">
+                <!-- Menu -->
+                <nav class="classy-navbar justify-content-between" id="oneMusicNav">
+
+                    <!-- Nav brand -->
+                    <a href="index.html" class="nav-brand"><img src="/img/Tune Fry Logo Transparent (4).png"
+                            alt=""></a>
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>  
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+
+                        <!-- Close Button -->
+                        <!-- <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div> -->
+
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul>
+
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="blog.html">TuneFry Daily</a></li>
+                                <li><a href="artist-advice.html">Recommendation</a></li>
+                                <li><a href="merchandise.html">Merchandise</a></li>
+                                <li><a href="artist-services.html">Artist Services</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                                
+                            </ul>
+
+                            <!-- Login/Register & Cart Button -->
+                            <div class="login-register-cart-button d-flex align-items-center">
+                                <!-- Login/Register -->
+                                <div class="login-register-btn mr-50">
+                                    <a href="login.html" id="loginBtn">Login / Register</a>
+                                </div>
+
+                                <!-- Cart Button -->
+                                <div class="cart-btn">
+                                    <li>
+                                        <div class="toggle-btn">
+                                            <input type="checkbox" id="checkbox">
+                                            <label for="checkbox" class="toggle-label">
+                                                <span class="toggle-ball"></span>
+                                            </label>
+                                        </div>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Nav End -->
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container artist-container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1 class="display-4">Artist Profile</h1>
+        <p class="lead">Welcome to the creative world of Artist Name. Explore the artistry, listen to the music, and connect on social media.</p>
+      </div>
+    </div>
+  
+    <div class="row">
+      <!-- Artist Information -->
+      <div class="col-md-4">
+        <div class="artist-card">
+          <img src="./img/artist.jpg" class="card-img-top img-fluid" alt="Artist Image">
+          <div class="card-body">
+            <h5 class="card-title">Artist Name</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget felis ut velit bibendum malesuada non vitae elit.
+            </p>
+            <div class="social-links">
+              <a href="https://www.facebook.com/artist" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/artist" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.twitter.com/artist" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Artist Details -->
+      <div class="col-md-8">
+        <h2 class="mb-4">More about Artist Name</h2>
+        <p>
+          Artist Name is a passionate and talented artist known for creating mesmerizing artworks and producing soulful music. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget felis ut velit bibendum malesuada non vitae elit.
+        </p>
+        <p>
+          Explore the gallery to view a collection of captivating artworks. Listen to the music to experience the artist's unique sound and style. Connect on social media for the latest updates and behind-the-scenes glimpses into the creative process.
+        </p>
+      </div>
+    </div>
+  
+    <!-- Artist Songs -->
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="mb-4">Songs</h2>
+  
+        <div class="song-card">
+          <div class="card-body">
+            <h5 class="card-title">Song 1</h5>
+            <audio controls>
+              <source src="/audio/dummy-audio.mp3" type="audio/mp3">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+  
+        <div class="song-card">
+          <div class="card-body">
+            <h5 class="card-title">Song 2</h5>
+            <audio controls>
+              <source src="/audio/dummy-audio.mp3" type="audio/mp3">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+  
+  <!-- ##### All Javascript Script ##### -->
+  <!-- jQuery-2.2.4 js -->
+  <script src="js/jquery/jquery-2.2.4.min.js"></script>
+  <!-- Popper js -->
+  <script src="js/bootstrap/popper.min.js"></script>
+  <!-- Bootstrap js -->
+  <script src="js/bootstrap/bootstrap.min.js"></script>
+  <!-- All Plugins js -->
+  <script src="js/plugins/plugins.js"></script>
+  <!-- Active js -->
+  <script src="js/active.js"></script>
+  <script src="js/dark-light-mode.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+</body>
+</html>
