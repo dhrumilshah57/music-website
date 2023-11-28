@@ -4952,3 +4952,28 @@ left: 1.3rem;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+.post-date span{
+  color: var(--pure-black);
+}
+
+.blog-post-meta + a{
+  color: var(--pencil-black);
+}
+.blog-description + p{
+  color: var(--mild-black);
+}
+
+.sidebar-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.comment-card {
+  border: 1px solid var(--mild-black);
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+  height: fit-content;
+}
